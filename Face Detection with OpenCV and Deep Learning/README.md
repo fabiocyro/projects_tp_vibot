@@ -25,7 +25,9 @@ obs: there are other imports on the code such as imutils, time and argparse. The
 Just place everything into the same folder and you are good to go!
 
 ## Comments
-This model performs well even with not the best light conditions and with simple cameras, like an in-built webcame for example (check the result below). So, to conclude, this project can help the user to better understand how to align deep learning and OpenCV to achieve some cool results.<br>
+<p>
+  This model performs well even with not the best light conditions and with simple cameras, like an in-built webcame for example (check the result below). So, to conclude, this   project can help the user to better understand how to align deep learning and OpenCV to achieve some cool results.
+</p>
 ![Result](https://user-images.githubusercontent.com/37183299/136977387-026ec28c-0157-4eeb-89da-8c1bc0b7cb9b.jpg)
 
 
