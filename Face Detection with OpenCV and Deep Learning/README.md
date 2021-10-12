@@ -31,6 +31,12 @@ Just place everything into the same folder and you are good to go!
 
 ![Result](https://user-images.githubusercontent.com/37183299/136977725-d42b881f-e446-4805-b3a6-e6d2afc8f4d2.jpg)
 
+## Usage
+On your terminal type: <br>
+```
+python detect_faces_video.py -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel
+```
+
 
 
 
