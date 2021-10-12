@@ -15,12 +15,12 @@
 ## Requirements
 
 * Python (version 3.6 was used here)
-* The **.prototxt** file that define the model architecture
+* The **.prototxt** file that defines the model architecture
 * The **.caffemodel** with the weights
 * OpenCV (version 4.4.0 for this example)
 * NumPy
 
-obs: there are other imports on the code such as imutils, time and argparse. They are optional and used as personal preference. Just make sure that if you are using OpenCV only, to modify the code for starting the camera 
+Obs: there are other imports on the code such as imutils, time and argparse. They are optional and used as personal preference. Just make sure that if you are using OpenCV only, to modify the code for starting the camera and to perform some pre-processing 
 
 Just place everything into the same folder and you are good to go!
 
