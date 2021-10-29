@@ -20,7 +20,7 @@
 * OpenCV (version 4.4.0 for this example)
 * NumPy
 
-Obs: there are other imports on the code such as imutils, time and argparse. They are optional and used as personal preference. Just make sure that if you are using OpenCV only, to modify the code for starting the camera and to perform some pre-processing 
+Obs: there are other imports in the code such as imutils, time and argparse. They are optional and used as personal preference. Just make sure that if you are using OpenCV only, to modify the code for starting the camera and to perform some pre-processing 
 
 Just place everything into the same folder and you are good to go!
 
