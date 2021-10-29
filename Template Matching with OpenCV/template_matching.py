@@ -34,9 +34,8 @@ result = cv2.matchTemplate(imageGray, templateGray, cv2.TM_CCOEFF_NORMED)
 endX = startX + template.shape[1]
 endY = startY + template.shape[0]
 
-# drawing the rectangle (Since the maximum points are detected exactly on the middle of the image/template, the addition of 25 pixels was
-# to compensate this and draw the rectangle on the beginning of the match
-cv2.rectangle(image, (startX - 25, startY + 25), (endX - 25, endY + 25), (255, 0, 0), 3)
+# drawing the rectangle
+cv2.rectangle(image, (startX, startY), (endX, endY), (255, 0, 0), 3)
 
 # show the output
 cv2.imshow("Output", image)
