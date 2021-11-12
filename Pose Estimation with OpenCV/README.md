@@ -76,12 +76,29 @@ Just place everything into the same folder and you are good to go!
 
 ## Comments and important observations
 <p>
-  This model performs well even with not the best light conditions and with simple cameras, like an in-built webcame for example (check the result below). So, to conclude, this   project can help the user to better understand how to align deep learning and OpenCV to achieve some interesting results with accuracy.
+  There are three codes provided: one for detecting the points on an image, one for videos and last one for real time detection on a webcam. Figure 1, shows the result for the first script, output.avi represents the output for the second.
+  All the scripts were tested on a simple (and old) laptop (i3-4005U 1.7GHZ with 4gb RAM and no dedicated graphic card) and it took an average of 8-10 seconds to process each frame for the video on a 10FPS speed.
+  For the detection in real time it is recommended a more powerful hardware with GPU for example. 
 </p>
 
 
 ## Usage
 On your terminal type: <br>
+
+For the image script:
+
 ```
-python detect_faces_video.py -p deploy.prototxt.txt -m res10_300x300_ssd_iter_140000.caffemodel
+python pose_image.py -i sample.png -p deploy.prototxt.txt -m pose_iter_440000.caffemodel
+```
+
+For the video script:
+
+```
+python pose_video.py -p deploy.prototxt.txt -m pose_iter_440000.caffemodel
+```
+
+For the live stream script:
+
+```
+python pose_video.py -p deploy.prototxt.txt -m pose_iter_440000.caffemodel
 ```
